@@ -61,8 +61,7 @@ Decision Tree와 Random Forest와 같은 전통적인 모델을 넘어서 XGBoos
       [ADASYN 기법을 활용한 불균형 데이터 보정 후 유방암 환자의 생존 예측 모델 성능평가 결과]
       | ADASYN | 최적의 하이퍼파라미터 | Accuracy | Recall | Precision |
       | --- | --- | --- | --- | --- |
-      | Decision Tree | 'max_depth': 10 'min_samples_leaf':2
-      'min_samples_split': 2 | 0.60 | 0.60 | 0.60 |
+      | Decision Tree | 'max_depth': 10 'min_samples_leaf':2, 'min_samples_split': 2 | 0.60 | 0.60 | 0.60 |
       | RandomForest | 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300 | 0.72 | 0.72 | 0.72 |
       | XGBoost | 'colsample_bytree': 0.6, 'learning_rate': 0.01, 'max_depth': 6, 'n_estimators': 300, 'subsample': 0.8 | 0.68 | 0.68 | 0.68 |
       | CatBoost | 'depth': 10', ’iterations': 200, 'learning_rate': 0.1 | **1.0** | **1.0** | **1.0** |
